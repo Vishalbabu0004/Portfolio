@@ -1,0 +1,482 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-color: rgb(2, 26, 26);
+}
+
+.navbar{
+    background-color: rgb(15, 51, 51);
+
+}
+.navbar-brand, .devName{
+    font-family: 'Pacifico',cursive;
+    color: aqua;
+}
+.navbar-brand:hover{
+     text-shadow:  0 0 30px rgb(137, 226, 226) ;
+    color: aqua;
+    font-size:21px ;
+    color: white;
+    cursor: pointer;
+}
+.navbar-toggler{
+    color: white;
+    background-color: aqua;
+}
+.nav-link , .mytext{
+    font-size: 18px;
+    color: white;
+}
+.mytext{
+    margin-bottom: 0;
+}
+.nav-link:hover{
+    text-shadow:  0 0 30px rgb(137, 226, 226) ;
+    color: aqua;
+    font-size:17px ;
+}
+
+.iconList{
+    margin-bottom: 100px;
+    
+}
+.profileIcon{
+   font-size: 25px;
+   color: aqua;
+   /* border: 2px solid black;
+   border-radius: 50%; */
+   padding-top:10px;
+   padding-right: 10px;
+}
+.cirIcon{
+    height: 50px;
+    width: 50px;
+    border: 2px solid aqua;
+   border-radius: 50%; 
+    margin-left: 20px;
+    
+}
+/* .anim-1{
+    animation: bigIcon1 1s infinite;
+    animation-direction: alternate ;
+ 
+} */
+@keyframes bigIcon1{
+          0%{
+        margin-top: 0px;
+    }
+    100%{
+         margin-top: 5px;
+    }
+
+}
+/* .anim-2{
+    animation: bigIcon2 1s infinite;
+    animation-direction: alternate-reverse ;
+ 
+} */
+@keyframes bigIcon2{
+          0%{
+        margin-top: 5px;
+    }
+    100%{
+         margin-top: 0px;
+    }
+
+}
+.cirIcon:hover{
+    height: 51px;
+    width: 51px;
+    cursor: pointer;
+    box-shadow: 0 0 30px rgb(137, 226, 226);
+    animation: none;
+}
+.mainImg{
+   height: 400px;
+   width: 400px;
+   border: 5px solid aqua;
+   box-shadow: 0 0 35px rgb(137, 226, 226);
+   position: relative;
+   animation: movePic 1s infinite;
+   animation-direction:alternate ;
+   overflow-y: hidden;
+}
+.img1{
+    justify-content: center;
+    align-items: center;
+}
+@keyframes movePic{
+    0%{
+        top:0px;
+    }
+    25%{
+        top:2px;
+    }
+    50%{
+        top:4px;
+    }
+    75%{
+        top:6px;
+    }100%{
+        top:8px;
+    }
+}
+.mainImg:hover{
+    cursor: pointer;
+     box-shadow: 0 0 50px rgb(137, 226, 226);
+    animation: none;
+}
+.sptext{
+    color: aqua;
+}
+.typing::before{
+    content: "Frontend Devloper";
+    animation: words 10s infinite;
+     animation-timing-function: ease-in-out;
+}
+.typing::after{
+    content: ""; 
+    right: -5px;
+    width: 2px;
+    height: 100%;  
+}
+@keyframes words{
+    0%{
+        content: "Frontend Developer|";
+    }
+    1%{
+        content: "Frontend Develope|";
+    }
+    2%{
+        content: "Frontend Develop|";
+    }
+    3%{
+        content: "Frontend Develo|";
+    }
+    4%{
+        content: "Frontend Devel|";
+    }
+    5%{
+        content: "Frontend Deve|";
+    }
+    6%{
+        content: "Frontend Dev|";
+    }
+    7%{
+        content: "Frontend De|";
+    }
+    8%{
+        content: "Frontend D|";
+    }
+    9%{
+        content: "Frontend |";
+    }
+    10%{
+        content: "Frontend|";
+    }
+    11%{
+        content: "Fronten|";
+    }
+    12%{
+        content: "Fronte|";
+    }13%{
+        content: "Front|";
+    }14%{
+        content: "Fron|";
+    }15%{
+        content: "Fro|";
+    }16%{
+        content: "Fr|";
+    }17%{
+        content: "F|";
+    }18%{
+        content: "|";
+    }
+    19%{
+        content: "";
+    }20%{
+        content: "|";
+    }21%{
+        content: "";
+    }22%{
+        content: "|";
+    }23%{
+        content: "";
+    }24%{
+        content: "|";
+    }25%{
+        content: "";
+    }26%{
+        content: "|";
+    }27%{
+        content: "";
+    }28%{
+        content: "|";
+    }29%{
+        content: "B|";
+    }30%{
+        content: "Ba|";
+    }31%{
+        content: "Bac|";
+    }32%{
+        content: "Back|";
+    }33%{
+        content: "Backe|";
+    }34%{
+        content: "Backen|";
+    }35%{
+        content: "Backend|";
+    }36%{
+        content: "Backend |";
+    }37%{
+        content: "Backend D|";
+    }38%{
+        content: "Backend De|";
+    }39%{
+        content: "Backend Dev|";
+    }40%{
+        content: "Backend Deve|";
+    }41%{
+        content: "Backend Devel|";
+    }42%{
+        content: "Backend Develo|";
+    }43%{
+        content: "Backend Develop|";
+    }44%{
+        content: "Backend Develope|";
+    } 45%{
+        content: "Backend Developer|";
+    }46%{
+        content: "Backend Developer";
+    }47%{
+        content: "Backend Developer|";
+    }48%{
+        content: "Backend Developer ";
+    }49%{
+        content: "Backend Developer |";
+    }50%{
+        content: "Backend Developer| ";
+    }
+    51%{
+        content: "Backend Develope|";
+    }
+    52%{
+        content: "Backend Develop|";
+    }
+    53%{
+        content: "Backend Develo|";
+    }
+    54%{
+        content: "Backend Devel|";
+    }
+    55%{
+        content: "Backend Deve|";
+    }
+    56%{
+        content: "Backend Dev|";
+    }
+    57%{
+        content: "Backend De|";
+    }
+    58%{
+        content: "Backend D|";
+    }
+    59%{
+        content: "Backend |";
+    }
+    60%{
+        content: "Backend|";
+    }
+    61%{
+        content: "Backen||";
+    }
+    62%{
+        content: "Backe|";
+    }63%{
+        content: "Back|";
+    }64%{
+        content: "Bac|";
+    }65%{
+        content: "Ba|";
+    }66%{
+        content: "B|";
+    }67%{
+        content: "|";
+    }68%{
+        content: "";
+    }69%{
+        content: "|";
+    }70%{
+        content: "";
+    }71%{
+        content: "|";
+    }72%{
+        content: "";
+    }73%{
+        content: "|";
+    }74%{
+        content: "";
+    }75%{
+        content: "|";
+    }76%{
+        content: "";
+    }77%{
+        content: "|";
+    }
+    78%{
+        content: "F|";
+    }79%{
+        content: "Fr|";
+    }80%{
+        content: "Fro|";
+    }81%{
+        content: "Fron|";
+    }82%{
+        content: "Front|";
+    }83%{
+        content: "Fronte|";
+    }84%{
+        content: "Fronten|";
+    }85%{
+        content: "Frontend|";
+    }86%{
+        content: "Frontend |";
+    }
+    87%{
+        content: "Frontend D|";
+    }88%{
+        content: "Frontend De|";
+    }89%{
+        content: "Frontend Dev|";
+    }90%{
+        content: "Frontend Deve|";
+    }91%{
+        content: "Frontend Devel|";
+    }92%{
+        content: "Frontend Develo|";
+    }93%{
+        content: "Frontend Develop|";
+    }94%{
+        content: "Frontend Develope|";
+    } 95%{
+        content: "Frontend Developer|";
+    }96%{
+        content: "Frontend Developer ";
+    }97%{
+        content: "Frontend Developer|";
+    }98%{
+        content: "Frontend Developer ";
+    }99%{
+        content: "Frontend Developer|";
+    }100%{
+        content: "Frontend Developer ";
+    }
+}
+.first-page{
+    overflow: hidden;
+    animation: none;
+}
+/* .second-page{
+    animation: none;
+  
+} */
+/* .mpic2{
+    animation: none;
+   
+} */
+.myBtn{
+    height: 30px;
+    width: 150px;
+    background-color: aqua;
+    border: 2px solid aqua;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgb(137, 226, 226);
+    font-size: 12px;
+}
+.myBtn:hover{
+    height:32px;
+    width: 152px;
+    box-shadow: 0 0 35px rgb(137, 226, 226);
+}
+.serviceH{
+    color: white;
+}
+.servCard{
+    height: 300px;
+    width: 350px;
+    background-color: rgb(9, 53, 53);
+    border: 2px solid aqua;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(137, 226, 226);
+}
+.servCard:hover{
+    height: 303px;
+    width: 353px;
+    box-shadow: 0 0 25px rgb(137, 226, 226);
+}
+.cardP{
+    font-size: 12px;
+}
+.servLogo{
+    color: aqua;
+}
+.skillH{
+    text-decoration: underline;
+}
+.progress{
+    height: 10px;
+    width:  300px;
+    box-shadow: 0 0 20px rgb(137, 226, 226);
+}
+.progress:hover{
+    height: 10px;
+    width:  300px;
+    box-shadow: 0 0 35px rgb(137, 226, 226);
+    cursor: pointer;
+}
+/* .pgr1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.atm{
+    background-image: url("./atm.jpg");
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+input{
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 5px;
+}
+.msgBox{
+    height: 150px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+}
+.submitBtn{
+    width: 100%;
+    margin-top: 20px;
+}
+.submitBtn:hover{
+    width: 101%;
+    height: 32px;
+    box-shadow: 0 0 35px rgb(137, 226, 226);
+}
+footer{
+    height: 30px;
+     background-color: rgb(15, 51, 51);
+  
+}
