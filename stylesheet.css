@@ -6,7 +6,7 @@
 body{
     background-color: rgb(2, 26, 26);
 }
-p{
+.cursp{
     font-family: 'Pacifico',cursive;
 }
 .navbar{
