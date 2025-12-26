@@ -15,4 +15,9 @@
        justify-content: center;
         
     }
+    .mainImg{
+   height: 300px;
+   width: 300px;
+   overflow-y: hidden;
+}
 }
