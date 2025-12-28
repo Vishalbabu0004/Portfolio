@@ -202,23 +202,23 @@ body{
         content: "|";
     }
     19%{
-        content: "";
+        content: "|";
     }20%{
         content: "|";
     }21%{
-        content: "";
+        content: "|";
     }22%{
         content: "|";
     }23%{
-        content: "";
+        content: "|";
     }24%{
         content: "|";
     }25%{
-        content: "";
+        content: "|";
     }26%{
         content: "|";
     }27%{
-        content: "";
+        content: "|";
     }28%{
         content: "|";
     }29%{
@@ -256,11 +256,11 @@ body{
     } 45%{
         content: "Backend Developer|";
     }46%{
-        content: "Backend Developer";
+        content: "Backend Developer|";
     }47%{
         content: "Backend Developer|";
     }48%{
-        content: "Backend Developer ";
+        content: "Backend Developer |";
     }49%{
         content: "Backend Developer |";
     }50%{
@@ -312,23 +312,23 @@ body{
     }67%{
         content: "|";
     }68%{
-        content: "";
+        content: "|";
     }69%{
         content: "|";
     }70%{
-        content: "";
+        content: "|";
     }71%{
         content: "|";
     }72%{
-        content: "";
+        content: "|";
     }73%{
         content: "|";
     }74%{
-        content: "";
+        content: "|";
     }75%{
         content: "|";
     }76%{
-        content: "";
+        content: "|";
     }77%{
         content: "|";
     }
@@ -370,15 +370,15 @@ body{
     } 95%{
         content: "Frontend Developer|";
     }96%{
-        content: "Frontend Developer ";
+        content: "Frontend Developer|";
     }97%{
         content: "Frontend Developer|";
     }98%{
-        content: "Frontend Developer ";
+        content: "Frontend Developer|" ;
     }99%{
         content: "Frontend Developer|";
     }100%{
-        content: "Frontend Developer ";
+        content: "Frontend Developer|";
     }
 }
 .first-page{
